@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>주휴수당 계산기 — 지급 조건·계산법 (2026년 기준) | CgangSalary</title>
+<meta name="description" content="주휴수당 계산기. 시급과 일주일 근무시간만 입력하면 주휴수당 금액과 지급 조건 충족 여부를 바로 확인합니다. 2026년 최저시급 10,320원 기본 적용, 주 15시간 기준 자동 판정.">
+<meta name="keywords" content="주휴수당 계산기, 주휴수당 계산법, 주휴수당 조건, 주휴수당 지급기준, 알바 주휴수당, 주 15시간 주휴수당, 2026 최저시급">
+<link rel="canonical" href="https://cgangsalary.pages.dev/juhyu">
+<meta property="og:type" content="website">
+<meta property="og:title" content="주휴수당 계산기 — 지급 조건·계산법 (2026년 기준)">
+<meta property="og:description" content="시급과 근무시간만 입력하면 주휴수당 금액과 받을 수 있는 조건인지 바로 확인. 2026년 최저시급 기본 적용.">
+<meta property="og:url" content="https://cgangsalary.pages.dev/juhyu">
+<meta property="og:locale" content="ko_KR">
+<meta property="og:image" content="https://cgangsalary.pages.dev/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="주휴수당 계산기 — 지급 조건·계산법">
+<meta name="twitter:description" content="시급과 근무시간으로 주휴수당을 바로 계산하세요.">
+<meta name="twitter:image" content="https://cgangsalary.pages.dev/og-image.png">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="stylesheet" href="css/style.css">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6670152160257884" crossorigin="anonymous"></script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebApplication",
+      "name": "CgangSalary 주휴수당 계산기",
+      "url": "https://cgangsalary.pages.dev/juhyu",
+      "description": "시급과 일주일 근무시간으로 주휴수당 금액과 지급 조건 충족 여부를 확인하는 무료 계산기.",
+      "keywords": "주휴수당 계산기, 주휴수당 조건, 주휴수당 계산법",
+      "applicationCategory": "FinanceApplication",
+      "operatingSystem": "Any",
+      "browserRequirements": "Chrome, Edge, Safari, Firefox 최신 버전",
+      "inLanguage": "ko",
+      "isAccessibleForFree": true,
+      "offers": { "@type": "Offer", "price": "0", "priceCurrency": "KRW" },
+      "featureList": [
+        "주 15시간 기준 지급 조건 자동 판정",
+        "주휴수당 금액·주급 계산",
+        "2026년 최저시급 10,320원 기본값 (직접 수정 가능)",
+        "계산 과정 표시",
+        "입력값이 서버로 전송되지 않는 브라우저 내 계산"
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "주휴수당이란 무엇인가요?",
+          "acceptedAnswer": { "@type": "Answer", "text": "1주 동안 정해진 근무일을 개근한 근로자에게 주는 유급 휴일 수당입니다. 근로기준법 제55조가 근거로, 일주일에 15시간 이상 일하는 모든 근로자(알바 포함)에게 적용됩니다. 하루치 임금을 일하지 않고도 받는 셈입니다." }
+        },
+        {
+          "@type": "Question",
+          "name": "주휴수당 지급 조건은 무엇인가요?",
+          "acceptedAnswer": { "@type": "Answer", "text": "두 가지입니다. 첫째, 1주 소정근로시간이 15시간 이상일 것. 둘째, 그 주의 소정근로일을 개근할 것(지각·조퇴는 결근이 아님). 5인 미만 사업장에도 똑같이 적용되며, 수습·계약직·알바 모두 해당됩니다." }
+        },
+        {
+          "@type": "Question",
+          "name": "주휴수당 계산법이 어떻게 되나요?",
+          "acceptedAnswer": { "@type": "Answer", "text": "(1주 소정근로시간 ÷ 40) × 8 × 시급입니다. 주 40시간 근무자는 8시간분(시급 10,320원 기준 82,560원), 주 20시간 근무자는 4시간분(41,280원)을 받습니다. 1주 소정근로시간은 최대 40시간까지만 인정됩니다." }
+        },
+        {
+          "@type": "Question",
+          "name": "지각이나 조퇴를 하면 주휴수당을 못 받나요?",
+          "acceptedAnswer": { "@type": "Answer", "text": "아닙니다. 개근 조건은 '결근이 없을 것'이므로 지각·조퇴·외출이 있어도 그 날 출근했다면 개근으로 인정됩니다. 하루라도 무단결근하면 그 주의 주휴수당은 받지 못합니다." }
+        },
+        {
+          "@type": "Question",
+          "name": "5인 미만 가게에서도 주휴수당을 받을 수 있나요?",
+          "acceptedAnswer": { "@type": "Answer", "text": "네. 연장·야간 가산수당은 5인 이상 사업장에만 적용되지만, 주휴수당은 사업장 규모와 관계없이 모든 사업장에 적용됩니다. 주 15시간 이상 일하는데 주휴수당을 안 주면 임금체불입니다." }
+        },
+        {
+          "@type": "Question",
+          "name": "주휴수당을 못 받았으면 어떻게 하나요?",
+          "acceptedAnswer": { "@type": "Answer", "text": "먼저 사업주에게 지급을 요청하고, 거부하면 고용노동부 노동포털에서 임금체불 진정을 접수할 수 있습니다. 임금채권 소멸시효는 3년이므로 과거 3년치까지 청구할 수 있습니다. 근무 기록(출퇴근 시간, 급여 이체 내역)을 증거로 준비하세요." }
+        },
+        {
+          "@type": "Question",
+          "name": "월급제 직장인도 주휴수당을 따로 받나요?",
+          "acceptedAnswer": { "@type": "Answer", "text": "월급제는 보통 주휴수당이 월급에 이미 포함되어 있습니다. 최저임금 월 환산액 2,156,880원(2026년)이 209시간 기준인 이유가 주휴시간(월 약 35시간)을 포함하기 때문입니다. 시급제·일급제 알바가 주휴수당을 따로 챙겨야 하는 경우입니다." }
+        }
+      ]
+    }
+  ]
+}
+</script>
+</head>
+<body>
+
+<header>
+  <h1><a href="index.html" title="홈으로">CgangSalary</a></h1>
+  <nav>
+    <a href="index.html">연봉 계산기</a>
+    <a href="juhyu.html" class="active">주휴수당</a>
+    <a href="alba.html">알바비</a>
+    <a href="about.html">소개</a>
+    <a href="privacy.html">개인정보</a>
+    <a href="contact.html">문의</a>
+  </nav>
+</header>
+
+<main>
+
+<div class="hero">
+  <span class="badge">주 15시간 이상이면 알바도 받는 유급 수당</span>
+  <h2>주휴수당 계산기</h2>
+  <p>시급과 일주일 근무시간만 입력하면 주휴수당 금액과 지급 조건 충족 여부를 바로 알려드립니다. 계산 과정도 함께 보여드려요.</p>
+</div>
+
+<div class="card">
+  <form id="juhyuForm" class="grid" autocomplete="off">
+    <div class="field full">
+      <label for="hourly">시급 <span class="hint">— 2026 최저시급 10,320원, 수정 가능</span></label>
+      <div class="unit-wrap">
+        <input type="text" inputmode="numeric" id="hourly" value="10,320">
+        <span class="unit">원</span>
+      </div>
+    </div>
+    <div class="field">
+      <label for="hoursPerDay">하루 근무시간</label>
+      <div class="unit-wrap">
+        <input type="number" id="hoursPerDay" value="8" min="0.5" max="24" step="0.5">
+        <span class="unit">시간</span>
+      </div>
+    </div>
+    <div class="field">
+      <label for="daysPerWeek">일주일 근무일수</label>
+      <select id="daysPerWeek">
+        <option value="1">1일</option>
+        <option value="2">2일</option>
+        <option value="3">3일</option>
+        <option value="4">4일</option>
+        <option value="5" selected>5일</option>
+        <option value="6">6일</option>
+        <option value="7">7일</option>
+      </select>
+    </div>
+    <div class="field full">
+      <button type="submit" class="btn primary">주휴수당 계산하기</button>
+    </div>
+  </form>
+
+  <div class="warn-msg" id="minWageWarn">⚠️ 입력한 시급이 2026년 최저시급(10,320원)보다 낮습니다. 최저임금법 위반일 수 있으니 확인해 보세요.</div>
+
+  <div class="result" id="result">
+    <div class="big">
+      <div class="label">일주일 주휴수당</div>
+      <div class="value" id="resultValue">0원</div>
+      <div class="sub" id="resultSub"></div>
+    </div>
+    <table class="breakdown">
+      <tbody>
+        <tr><td>1주 소정근로시간 <span class="rate">(1일 최대 8시간, 주 최대 40시간)</span></td><td id="dWeeklyHours">0시간</td></tr>
+        <tr><td>주휴시간 <span class="rate">(소정근로 ÷ 40 × 8)</span></td><td id="dJuhyuHours">0시간</td></tr>
+        <tr><td>주휴수당 <span class="rate">(주휴시간 × 시급)</span></td><td id="dJuhyu">0원</td></tr>
+        <tr class="net"><td>주급 합계 (기본급 + 주휴수당)</td><td id="dWeekly">0원</td></tr>
+      </tbody>
+    </table>
+    <p class="note" id="calcNote"></p>
+    <p class="note">※ 주휴수당은 그 주의 소정근로일을 개근했을 때 지급됩니다. 지각·조퇴는 결근이 아니므로 개근으로 인정됩니다.</p>
+  </div>
+</div>
+
+<div class="tools">
+  <a class="tool-card" href="alba.html">
+    <span class="emoji">💸</span>
+    <h4>알바비 계산기</h4>
+    <p>주휴수당을 포함한 이번 달 알바 월급을 계산합니다. 4대보험·3.3% 공제 선택 가능.</p>
+  </a>
+  <a class="tool-card" href="index.html">
+    <span class="emoji">💼</span>
+    <h4>연봉 실수령액 계산기</h4>
+    <p>2026년 요율로 세후 월급과 필요 연봉을 계산합니다.</p>
+  </a>
+  <a class="tool-card" href="about.html">
+    <span class="emoji">🔒</span>
+    <h4>서버 전송 없음</h4>
+    <p>모든 계산은 브라우저 안에서만. 입력값이 밖으로 나가지 않습니다.</p>
+  </a>
+</div>
+
+<section class="content" id="guide">
+  <h3>주휴수당 한눈에 보기</h3>
+  <h4>지급 조건 2가지</h4>
+  <ol class="steps">
+    <li><b>1주 소정근로시간 15시간 이상</b> — 근로계약서에 정한 근무시간 기준입니다. 하루 3시간씩 주 5일이면 15시간으로 조건을 충족합니다.</li>
+    <li><b>그 주 소정근로일 개근</b> — 정해진 근무일에 결근이 없어야 합니다. 지각·조퇴는 결근이 아닙니다.</li>
+  </ol>
+
+  <h4>계산 공식</h4>
+  <p><b>주휴수당 = (1주 소정근로시간 ÷ 40) × 8 × 시급</b></p>
+  <div class="table-scroll">
+    <table class="ref">
+      <thead><tr><th>근무 형태</th><th>1주 소정근로</th><th>주휴수당 (시급 10,320원)</th></tr></thead>
+      <tbody>
+        <tr><td>주 5일 × 8시간 (풀타임)</td><td>40시간</td><td>82,560원</td></tr>
+        <tr><td>주 5일 × 6시간</td><td>30시간</td><td>61,920원</td></tr>
+        <tr><td>주 5일 × 4시간</td><td>20시간</td><td>41,280원</td></tr>
+        <tr><td>주 3일 × 5시간</td><td>15시간</td><td>30,960원</td></tr>
+        <tr><td>주 2일 × 6시간</td><td>12시간</td><td>0원 (15시간 미만)</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section class="content" id="faq">
+  <h3>자주 묻는 질문</h3>
+  <details>
+    <summary>주휴수당이란 무엇인가요?</summary>
+    <p>1주 동안 정해진 근무일을 개근한 근로자에게 주는 유급 휴일 수당입니다. 근로기준법 제55조가 근거로, 일주일에 15시간 이상 일하는 모든 근로자(알바 포함)에게 적용됩니다. 하루치 임금을 일하지 않고도 받는 셈입니다.</p>
+  </details>
+  <details>
+    <summary>주휴수당 지급 조건은 무엇인가요?</summary>
+    <p>두 가지입니다. 첫째, 1주 소정근로시간이 15시간 이상일 것. 둘째, 그 주의 소정근로일을 개근할 것(지각·조퇴는 결근이 아님). 5인 미만 사업장에도 똑같이 적용되며, 수습·계약직·알바 모두 해당됩니다.</p>
+  </details>
+  <details>
+    <summary>주휴수당 계산법이 어떻게 되나요?</summary>
+    <p>(1주 소정근로시간 ÷ 40) × 8 × 시급입니다. 주 40시간 근무자는 8시간분(시급 10,320원 기준 82,560원), 주 20시간 근무자는 4시간분(41,280원)을 받습니다. 1주 소정근로시간은 최대 40시간까지만 인정됩니다.</p>
+  </details>
+  <details>
+    <summary>지각이나 조퇴를 하면 주휴수당을 못 받나요?</summary>
+    <p>아닙니다. 개근 조건은 '결근이 없을 것'이므로 지각·조퇴·외출이 있어도 그 날 출근했다면 개근으로 인정됩니다. 하루라도 무단결근하면 그 주의 주휴수당은 받지 못합니다.</p>
+  </details>
+  <details>
+    <summary>5인 미만 가게에서도 주휴수당을 받을 수 있나요?</summary>
+    <p>네. 연장·야간 가산수당은 5인 이상 사업장에만 적용되지만, 주휴수당은 사업장 규모와 관계없이 모든 사업장에 적용됩니다. 주 15시간 이상 일하는데 주휴수당을 안 주면 임금체불입니다.</p>
+  </details>
+  <details>
+    <summary>주휴수당을 못 받았으면 어떻게 하나요?</summary>
+    <p>먼저 사업주에게 지급을 요청하고, 거부하면 고용노동부 노동포털에서 임금체불 진정을 접수할 수 있습니다. 임금채권 소멸시효는 3년이므로 과거 3년치까지 청구할 수 있습니다. 근무 기록(출퇴근 시간, 급여 이체 내역)을 증거로 준비하세요.</p>
+  </details>
+  <details>
+    <summary>월급제 직장인도 주휴수당을 따로 받나요?</summary>
+    <p>월급제는 보통 주휴수당이 월급에 이미 포함되어 있습니다. 최저임금 월 환산액 2,156,880원(2026년)이 209시간 기준인 이유가 주휴시간(월 약 35시간)을 포함하기 때문입니다. 시급제·일급제 알바가 주휴수당을 따로 챙겨야 하는 경우입니다.</p>
+  </details>
+</section>
+
+</main>
+
+<footer>
+  <a href="about.html">사이트 소개</a> ·
+  <a href="privacy.html">개인정보 처리방침</a> ·
+  <a href="contact.html">문의하기</a>
+  <p style="margin-top:8px">© 2026 CgangSalary — 입력값은 브라우저 밖으로 나가지 않습니다.</p>
+</footer>
+
+<script src="js/calc.js"></script>
+<script src="js/juhyu-page.js"></script>
+</body>
+</html>

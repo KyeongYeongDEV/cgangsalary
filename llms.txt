@@ -1,0 +1,16 @@
+# CgangSalary (짱샐러리)
+
+> 연봉 실수령액·주휴수당·알바비를 계산하는 무료 한국어 급여 계산기 모음.
+> 2026년 최신 요율(국민연금 4.75%, 건강보험 3.595%, 장기요양 13.14%, 고용보험 0.9%)과
+> 국세청 근로소득 간이세액표 산식을 적용하며, 입력값은 서버로 전송되지 않고
+> 브라우저 안에서만 계산됩니다.
+
+## 계산기
+- [연봉 실수령액 계산기](https://cgangsalary.pages.dev/): 4대보험·소득세 공제 후 월 실수령액, 목표 실수령액→필요 연봉 역계산, 연봉 구간별 실수령액표
+- [주휴수당 계산기](https://cgangsalary.pages.dev/juhyu): 주 15시간 기준 지급 조건 판정과 금액 계산
+- [알바비 계산기](https://cgangsalary.pages.dev/alba): 2026년 최저시급 10,320원 기본값, 주휴수당 자동 포함, 공제 방식(없음/3.3%/4대보험) 선택
+
+## 기타
+- [사이트 소개](https://cgangsalary.pages.dev/about)
+- [개인정보 처리방침](https://cgangsalary.pages.dev/privacy)
+- [문의하기](https://cgangsalary.pages.dev/contact)
