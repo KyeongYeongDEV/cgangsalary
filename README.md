@@ -26,7 +26,7 @@
 
 ```bash
 node tests/unit.test.js                          # 계산 엔진 단위 테스트
-../pdf-editor/.venv/bin/python tests/test_e2e.py # Playwright E2E (계산 흐름·nav 일관성·FAQ/JSON-LD 일치)
+~/Downloads/ebook-script/pdf-editor/.venv/bin/python tests/test_e2e.py # Playwright E2E (계산 흐름·nav 일관성·FAQ/JSON-LD 일치)
 ```
 
 ## 배포
